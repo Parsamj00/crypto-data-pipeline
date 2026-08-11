@@ -1,0 +1,8 @@
+pandas>=2.0
+requests>=2.31
+openpyxl>=3.1
+urllib3>=2.0
+
+# Only required if DB_BACKEND=sqlserver (see db_config.py).
+# Not needed for the default SQLite demo mode.
+# pyodbc>=5.0
